@@ -1,0 +1,18 @@
+{
+	"name": "blankcypress",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"cy-open": "cypress open --e2e --browser chrome",
+		"cy-run-chrome": "npx cypress run --spec 'cypress/e2e/template_spec.cy.js' --browser chrome",
+		"cy-run-edge": "npx cypress run --spec 'cypress/e2e/template_spec.cy.js' --browser edge"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"cypress": "^12.16.0",
+		"cypress-mochawesome-reporter": "^3.5.1",
+		"cypress-real-events": "^1.8.1"
+	}
+}
